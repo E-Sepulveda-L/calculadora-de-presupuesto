@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de presupuesto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="container">
+
+        <form action="">
+            <section id="incomes">
+                <h2>Ingresos mensuales</h2>
+                <div id="salary">
+                    <label for="salary-input">Salario neto</label>
+                    <input type="number" class="incomes-input" id="salary-input">
+                </div>
+                <div id="other-incomes">
+                    <label for="other-income-input">Otros ingresos</label>
+                    <input type="number" class="incomes-input" id="other-income-input" >
+                </div>
+                <div id="total">
+                    <span>Total</span>
+                    <span id="total-incomes-span">0</span>
+                </div>
+            </section>
+
+            <section id="expenses">
+                <h2>Gastos mensuales</h2>
+                <div id="fijos-estaticos">
+                    <span>Fijos estaticos</span>
+                    <div class="expenses-types" id="alquiler">
+                        <label for="alquiler-input">Alquiler</label>
+                        <div>
+                            <input type="number" class="expenses-input" id="alquiler-input">
+                            <button id="options-button">:</button>
+                        </div>
+                    </div>
+                    <div class="expenses-types" id="educacion">
+                        <label for="educacion-input">Educacion</label>
+                        <div>
+                            <input type="number" class="expenses-input" id="educacion-input">
+                            <button id="options-button">:</button>
+                        </div>
+                    </div>
+                    <div class="expenses-types" id="transporte">
+                        <label for="transporte-input">Transporte</label>
+                        <div>
+                            <input type="number" class="expenses-input" id="transporte-input">
+                            <button id="options-button">:</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="fijos-reducibles">
+                    <span>Fijos reducibles</span>
+                    <div class="expenses-types" id="agua">
+                        <label for="agua-input">Agua</label>
+                        <div>
+                            <input type="number" class="expenses-input" id="agua-input">
+                            <button id="options-button">:</button>
+                        </div>
+                    </div>
+                    <div class="expenses-types" id="gas">
+                        <label for="gas-input">Gas</label>
+                        <div>
+                            <input type="number" class="expenses-input" id="gas-input">
+                            <button id="options-button">:</button>
+                        </div>
+                    </div>
+                    <div class="expenses-types" id="luz">
+                        <label for="luz-input">Luz</label>
+                        <div>
+                            <input type="number" class="expenses-input" id="luz-input">
+                            <button id="options-button">:</button>
+                        </div>
+                    </div>
+                    <div class="expenses-types" id="internet">
+                        <label for="internet-input">Internet</label>
+                        <div>
+                            <input type="number" class="expenses-input" id="internet-input">
+                            <button id="options-button">:</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="variables">
+                    <span>Variables</span>
+                    <div class="expenses-types" id="viajes">
+                        <label for="viajes-input">Viajes</label>
+                        <div>
+                            <input type="number" class="expenses-input" id="viajes-input">
+                            <button id="options-button">:</button>
+                        </div>
+                    </div>
+                    <div class="expenses-types" id="suscripciones">
+                        <label for="suscripciones-input">Suscripciones</label>
+                        <div>
+                            <input type="number" class="expenses-input" id="suscripciones-input">
+                            <button id="options-button">:</button>
+                        </div>
+                    </div>
+                    <div class="expenses-types" id="mascotas">
+                        <label for="mascotas-input">Mascotas</label>
+                        <div>
+                            <input type="number" class="expenses-input" id="mascotas-input">
+                            <button id="options-button">:</button>
+                        </div>
+                    </div>
+                    <div class="expenses-types" id="ropa">
+                        <label for="ropa-input">Ropa</label>
+                        <div>
+                            <input type="number" class="expenses-input" id="ropa-input">
+                            <button id="options-button">:</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </form>
+        
+        <section id="resume">
+            <h2>Resumen</h2>
+            <section id="balance">
+                <div id="resume-incomes">
+                    <h3>Ingresos totales</h3>
+                    <span>0</span>
+                </div>
+                <div id="resume-expenses">
+                    <h3>Gastos totales</h3>
+                    <span>0</span>
+                </div>
+                <div id="resume-balance">
+                    <h3>Balance final</h3>
+                    <span>0</span>
+                </div>
+            </section>
+            <section id="expenses-types-section">
+
+            </section>
+        </section>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>

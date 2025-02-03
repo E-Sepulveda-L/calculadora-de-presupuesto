@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    background-color: palegoldenrod;
+}
+#container{
+    padding: 1%;
+    width: fit-content;
+    height: fit-content;
+    background-color: palegreen;
+}
+form{
+    /* width: 100%;
+    height: 100%; */
+    background-color: paleturquoise;
+}
+/* ================================ incomes ================================ */
+#incomes{
+    background-color: palevioletred;
+}
+/* ================================ expenses ================================ */
+#expenses{
+    background-color: papayawhip;
+}
+.expenses-types{
+    margin: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 167, 158);
+}
